@@ -1,0 +1,34 @@
+.main {
+    &__buttons {
+       display: flex;
+       justify-content: center;
+       margin-top: 45px;
+  
+    }
+    &__icon {
+        display: inline-block;
+        width: 21px;
+        height: 24px;
+        background: none;
+        padding-right: 12px;
+        vertical-align:sub;
+    }
+    &__text {
+        width: 95px;
+        margin-left: 500px;
+        color: #65727B;
+        text-align: center;
+        font-family: Source Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px; 
+    }
+    &__photo {
+        // margin: 95px 144px 100px 75px;
+        img {
+            margin: 95px 144px 100px 75px;
+        }
+        
+        
+    }
+}

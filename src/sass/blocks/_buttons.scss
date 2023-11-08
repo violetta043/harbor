@@ -1,0 +1,27 @@
+.btn {
+    min-width: 85px;
+    height: 38px; 
+    border: none;
+    color: #65727B;
+    font-size: 16px;
+    &:hover {
+    border-radius: 40px;
+    background: rgba(101, 114, 123, 0.20);
+    color: #28514F;
+    }
+    &-main {
+        width: 156px;
+        height: 56px;
+        margin-right: 20px;
+        border-radius: 50px;
+        background: #AEB4B6;
+        color: #fff;
+        text-align: center;
+        
+        &:hover {
+            background: #28514F;
+            color: #fff;
+        }
+        
+    }
+} 

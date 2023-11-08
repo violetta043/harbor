@@ -1,0 +1,60 @@
+@media (max-width: 1200px ) {
+
+}
+
+@media (max-width: 992px) {
+    .header {
+        &__icon {
+            padding-left: 40px;
+            padding-right: 140px;
+        }
+        &__items {
+            width: 550px;
+            padding-right: 10px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 650px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 10px;
+        &__icon {
+            padding-left: 40px;
+        }
+       
+    }
+        
+        .btn {
+            font-size: 14px;
+            &-main{
+                font-size: 16px;
+            }
+        }
+    }
+    .main{
+        &__photo {
+            img{
+                width: 550px;
+                height: 720px;
+                margin: 95px 40px 100px 50px;
+            }
+        }
+        &__text {
+            margin-left: 355px;
+        }
+    }
+    .title {
+        font-size: 42px;
+        width: 550px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+
+
+@media (max-width: 576px){
+
+}
